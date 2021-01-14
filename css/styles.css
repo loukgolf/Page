@@ -1,0 +1,19 @@
+html {
+    font-family: sans-serif;
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #91AA9D 0%, #FCFFF5 100%);
+}
+
+
+/*
+Remove default margin.
+*/
+
+body {
+    margin: 0;
+}
+
+#video {
+    position: absolute;
+    left: 50%;
+}

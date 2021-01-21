@@ -1,5 +1,12 @@
+@font-face{
+    src: url(fonts/OliverFontRegular.ttf) format('truetype');
+    font-family: oli;
+}
+
+
+
+
 html {
-    font-family: sans-serif;
     height: 300%;
     background: radial-gradient(ellipse at bottom, #91AA9D 0%, #FCFFF5 100%);
 }
@@ -10,5 +17,7 @@ Remove default margin.
 */
 
 body {
+    font-family: oli;
     margin: 0;
 }
+
